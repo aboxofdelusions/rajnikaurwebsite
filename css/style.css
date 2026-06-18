@@ -252,6 +252,43 @@ section {
   margin-top: 1.5rem;
 }
 
+.writing-grid {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.writing-col {
+  flex: 1 1 280px;
+}
+
+.writing-col-heading {
+  color: var(--accent);
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.essay-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.essay-list li {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+.essay-list li:last-child {
+  border-bottom: none;
+}
+
+.essay-list a {
+  font-size: 1.15rem;
+}
+
 footer.site-footer {
   background: var(--ink);
   color: #f1e8de;
