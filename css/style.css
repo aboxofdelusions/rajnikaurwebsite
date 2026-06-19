@@ -117,6 +117,47 @@ section {
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
+.book-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-carousel .carousel-img {
+  display: none;
+}
+
+.book-carousel .carousel-img.active {
+  display: block;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.85);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.carousel-arrow:hover {
+  background: rgba(255,255,255,1);
+}
+
+.carousel-prev { left: 0; }
+.carousel-next { right: 0; }
+
 .split-text h1,
 .split-text h2 {
   margin-top: 0;
