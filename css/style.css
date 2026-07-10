@@ -293,6 +293,66 @@ section {
   margin-top: 1.5rem;
 }
 
+.review-section {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+
+.review-stars {
+  display: block;
+  max-width: 80px;
+  margin: 0 auto 1.25rem;
+}
+
+.review-section .section-heading {
+  margin-bottom: 1.5rem;
+}
+
+.review-quote {
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto 1.75rem;
+  padding-top: 1.5rem;
+  border: none;
+}
+
+.review-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Georgia, serif;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--accent-light);
+}
+
+.review-quote p {
+  color: var(--ink);
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.75;
+  margin: 0 0 1.25rem;
+}
+
+.review-quote cite {
+  display: block;
+  color: var(--accent);
+  font-style: normal;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+}
+
+.btn-sm {
+  width: 160px;
+  height: 40px;
+  font-size: 0.82rem;
+}
+
 .writing-grid {
   display: flex;
   gap: 3rem;
