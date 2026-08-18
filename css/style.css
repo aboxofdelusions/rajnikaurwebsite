@@ -168,7 +168,7 @@ section {
 .book-buttons {
   display: flex;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   flex-wrap: wrap;
 }
 
@@ -293,10 +293,13 @@ section {
   margin-top: 1.5rem;
 }
 
-.review-banner {
-  margin: 1.5rem 0;
-  padding: 0.75rem 1rem;
+.review-section.review-banner {
+  margin: 2.5rem 0;
+  padding: 0;
   text-align: left;
+  background: none;
+  border: none;
+  border-radius: 0;
 }
 
 .review-banner .review-quote {
@@ -362,6 +365,15 @@ section {
   font-style: italic;
   line-height: 1.75;
   margin: 0 0 1.25rem;
+}
+
+.review-quote p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.review-quote p a:hover {
+  text-decoration: underline;
 }
 
 .review-quote cite {
